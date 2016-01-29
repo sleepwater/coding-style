@@ -109,10 +109,10 @@ function test() {
 * 小括号内部两侧不需要保留空格。
 
 ``` javascript
-function test(a,·b)∙{
-····if·(a·>·1)·{
+function test(a,∙b)∙{
+∙∙∙∙if·(a∙>∙1)∙{
 		console.log(a);  
-	}·else {
+	}∙else {
   		console.log(b);
 	}
 }
@@ -199,8 +199,6 @@ promise.then(result => {
 ## 参考
 
 * [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript/blob/master/README.md)
-
-
 * [jsCode](http://jscode.org/)
 * [ECMAScript 6 入门](http://es6.ruanyifeng.com/)
 * [Learn ES2015](https://babeljs.io/docs/learn-es2015/)
